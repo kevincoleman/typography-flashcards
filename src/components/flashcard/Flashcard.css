@@ -1,0 +1,34 @@
+.FlashCard {
+  width: 90vw;
+  height: 50vw;
+  box-sizing: border-box;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: .2em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+img.typeface {
+  margin-top: 10%;
+  max-width: 80%;
+}
+
+.action-area {
+  margin-bottom: 5%;
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.action-area a {
+  text-decoration: none;
+  color: #fff;
+  background: #444;
+  border: none;
+  padding: 1em 2.5em;
+  cursor: pointer;
+}
