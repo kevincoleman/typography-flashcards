@@ -31,7 +31,10 @@ export default class Flashcard extends Component<IFlashcardProps, IFlashcardStat
   }
 
   getNewTypeface = () => {
-    return flashcards[Math.floor(Math.random() * flashcards.length)];
+    const currentTypeface = this.state.typeface;
+    const newTypeface = flashcards[Math.floor(Math.random() * flashcards.length)];
+    if (currentTypeface === newTypeface) { this.getNewTypeface(); }
+    return newTypeface;
   }
 
   onNextTypeface = () => {
