@@ -38,7 +38,7 @@ export default class Flashcard extends Component<IFlashcardProps, IFlashcardStat
   }
 
   onNextTypeface = () => {
-    this.setState({typeface: this.getNewTypeface()});
+    this.setState({typeface: this.getNewTypeface(), showAnswer: false});
   }
 
   onShowAnswer = () => {
