@@ -53,7 +53,7 @@ export default class Flashcard extends Component<IFlashcardProps, IFlashcardStat
         <div className="typeface">
           <img src={typeface.image} className="typeface_image" alt={typeface.name} />
         </div>
-        <div className={"answer"} onClick={this.onShowAnswer}>
+        <div className="answer" onClick={this.onShowAnswer}>
           <span className={showAnswer ? "visible" : ""}>{typeface.name}</span>
         </div>
         <div className="action-area">

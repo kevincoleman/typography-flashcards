@@ -16,7 +16,7 @@ div.typeface {
   justify-content: center;
   width: 100%;
   max-width: 80%;
-  height: 177px;
+  height: 34vw;
   margin-top: 5vh;
 }
 
@@ -39,7 +39,6 @@ img.typeface_image{
 }
 
 .answer span {
-  transition: opacity 300ms;
   opacity: 0;
   display: inline-block;
   box-sizing: border-box;
